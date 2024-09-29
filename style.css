@@ -1,0 +1,706 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar {
+    background-color: #0b052b;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    box-shadow: 0px 2px 60px rgba(255, 255, 255, 0.349);
+
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 12px;
+    margin-left: 1rem;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: silver;
+    transition: all ease 1s;
+}
+
+.navbar-brand {
+
+    margin-left: 2rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+.bg-img {
+    background-image: url('./img/demo-cryptocurrency-image-01-2.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.talk {
+    margin-top: 8rem;
+    padding: 5em;
+}
+
+.talk h1 {
+    color: white;
+    width: 50%;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.talk p {
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.btns {
+    margin-top: 1rem;
+    cursor: pointer;
+    background: #7611f7;
+    height: 50px;
+    width: 170px;
+    color: white;
+    border-radius: 3rem;
+    font-size: 14px;
+}
+
+.btns:hover {
+    background-color: white;
+    color: #7611f7;
+    transition: all ease 1s;
+}
+
+.btns2 {
+    margin-left: 1rem;
+    cursor: pointer;
+    background: white;
+    height: 50px;
+    width: 170px;
+    color: black;
+    border-radius: 3rem;
+    font-size: 14px;
+}
+
+.btns2:hover {
+    background-color: black;
+    color: white;
+    transition: all ease 1s;
+}
+
+.part1 {
+    background-color: rgb(11, 5, 39);
+    padding: 5em;
+}
+
+.part1 .items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+
+}
+
+.part1 .items h3 {
+    text-transform: uppercase;
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+.part1 .items h4 {
+    font-size: 14px;
+    color: #858293;
+}
+
+.part1 .items h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.btns3 {
+    margin-top: 1rem;
+    cursor: pointer;
+    background: red;
+    height: 45px;
+    width: 140px;
+    color: white;
+    border-radius: 2rem;
+    font-size: 14px;
+    border: 0;
+}
+
+.btns3:hover {
+    background-color: white;
+    color: red;
+    transition: all ease 1s;
+}
+
+.btns4 {
+    margin-top: 1rem;
+    cursor: pointer;
+    background: #008000;
+    height: 45px;
+    width: 140px;
+    color: white;
+    border-radius: 2rem;
+    font-size: 14px;
+    border: 0;
+}
+
+.btns4:hover {
+    background-color: white;
+    color: #008000;
+    transition: all ease 1s;
+}
+
+.part2 {
+    background-color: rgb(11, 5, 39);
+    text-align: center;
+    color: white;
+    padding: 5em;
+}
+
+.part2 h2 {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 3rem;
+}
+
+.part2 p {
+    font-size: 14px;
+    color: #858293;
+    padding-top: 1rem;
+}
+
+.part2 .items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.part2 .items .card {
+    background-color: #140c3a;
+    width: 18rem;
+}
+
+.part2 .items .card h5 {
+    color: white;
+    font-size: 14px;
+}
+
+.part2 .items .card img {
+    height: 8vh;
+    object-fit: contain;
+    background-color: inherit;
+    margin-top: 1rem;
+}
+
+.part3 {
+    background-color: rgb(11, 5, 39);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 4rem;
+    color: white;
+}
+
+.part3 .talk2 {
+    width: 40%;
+}
+
+.part3 .img {
+    width: 45%;
+
+}
+
+.part3 .img img {
+    width: 100%;
+
+}
+
+.part3 h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.part3 p {
+    font-size: 14px;
+    color: #858293;
+    line-height: 24px;
+}
+
+.part3 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.part4 {
+    background-color: rgb(11, 5, 39);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em;
+    text-align: center;
+    color: white;
+}
+
+.part4 h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.part4 p {
+    font-size: 14px;
+    color: #858293;
+}
+
+.part5 {
+    padding: 5em;
+    text-align: center;
+    box-shadow: inset 0 0 60px 10px rgba(72, 19, 219, 0.185);
+}
+
+.part5 h2 {
+    font-size: 35px;
+    color: white;
+}
+
+.part5 p {
+    font-size: 14px;
+    color: #858293;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.part6 {
+    padding: 5em;
+    background-color: rgb(11, 5, 39);
+    text-align: center;
+    color: white;
+}
+
+.part6 span {
+    font-size: 20px;
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+.part6 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 7rem;
+}
+
+.part6 p {
+    font-size: 14px;
+    color: #858293;
+    padding-top: 1rem;
+}
+
+.part6 .items {
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.part6 .item3 h3 {
+    padding-top: 1rem;
+    font-size: 14px;
+}
+
+.part6 .item3 p{
+    font-size: 14px;
+    color: #858293;
+}
+.part7{
+    padding: 5em;
+    background-image: url('./img/demo-cryptocurrency-bg-image-03-1.jpg');
+    background-position: top;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.part7 .talk3 h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.part7 .talk3{
+    width: 40%;
+}
+.part7 .talk4{
+    width: 45%;
+}
+.part7 .talk4 h4{
+    font-size: 16px;
+}
+.part7 .talk4 p{
+    font-size: 14px;
+    color: #858293;
+}
+.part8{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em;
+    color: white;
+}
+.part8 .talk5 {
+    width: 40%;
+}
+
+.part8 .img {
+    width: 45%;
+
+}
+.part8 span{
+    margin-left: 1rem;
+}
+.part8 .img img {
+    width: 100%;
+
+}
+
+.part8 h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.part8 p {
+    font-size: 14px;
+    color: #858293;
+    line-height: 24px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.part8 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.part8 .talk5 img{
+    cursor: pointer;
+}
+.part9{
+    text-align: center;
+    color: white;
+    padding: 3em;
+    margin-bottom: 5rem;
+}
+.part9 h2{
+    font-size: 35px;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
+.part9 input{
+    margin-bottom: 1rem;
+    width: 600px;
+    padding: 8px;
+}
+.part9 textarea{
+    margin-bottom: 1rem;
+    width: 600px;
+    padding: 15px;
+}
+
+
+@media screen and (max-width:1000px) {
+    .part2 .items {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bg-img {
+        background-image: url('./img/demo-cryptocurrency-image-01-2.png');
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align: center;
+    
+    }
+    
+    .talk {
+        margin-top: 8rem;
+        padding: 2em;
+    }
+    
+    .talk h1 {
+        width: 100%;
+        font-size: 55px;
+        text-align: center;
+    }
+    
+    .talk p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .part2 .items .card {
+        margin-bottom: 2rem;
+        width: 30rem;
+    }
+    .part6 {
+        padding: 2em;
+    }
+    .part7{
+        padding: 3em;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .part7 .talk3{
+        width: 80%;
+        padding-bottom: 4rem;
+    }
+    .part7 .talk4{
+        width: 80%;
+    }
+   
+    .part8{
+        justify-content: center;
+        padding: 2rem 1rem;
+        flex-direction: column;
+    }
+    .part8 .talk5 {
+        width: 80%;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .part8 .img {
+        width: 80%;
+    
+    }
+    
+    .part8 .img img {
+        width: 100%;
+    
+    }
+    
+   }
+    
+  
+@media screen and (max-width:786px) {
+    .part1 {
+        background-color: rgb(11, 5, 39);
+    }
+    
+    .part1 .items {
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    .part1 img{
+        height: 120px;
+    }
+    .btns3{
+        margin-bottom: 2rem;
+    }
+    .btns4{
+        margin-bottom: 2rem;
+    }
+    .part1 .items h3 {
+        font-size: 25px;
+    }
+    
+    .part1 .items h4 {
+        font-size: 22px;
+    }
+    
+    .part1 .items h2 {
+        font-size: 45px;
+    }
+    .part3 {
+        justify-content: center;
+        padding: 2rem 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .part3 .talk2 {
+        width: 80%;
+    }
+    
+    .part3 .img {
+        width: 90%;
+    
+    }
+    
+   
+    
+    .part3 h4 {
+        font-size: 14px;
+    }
+    
+    .part3 p {
+        font-size: 12px;
+    }
+    
+    .part3 h2 {
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 40px;
+    }
+    .block{
+        display: none;
+    }
+    .part6 {
+        padding: 5em;
+    }
+    
+    
+    
+   
+    
+  
+    .part6 .items {
+        margin-top: 5rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .part6 .item3 h3 {
+        padding-top: 1rem;
+        font-size: 20px;
+    }
+    
+    .part6 .item3 p{
+        font-size: 18px;
+        padding-bottom: 2rem;
+    }
+    .part6 .item3 img{
+        height: 120px;
+    }
+   
+   
+    .part9 input{
+        width: 500px;
+    }
+    .part9 textarea{
+        width: 500px;
+    }
+    .part8 .talk5 {
+        text-align: center;
+    }
+}
+@media screen and (max-width:590px) {
+    
+    .part9 input{
+        width: 400px;
+    }
+    .part9 textarea{
+        width: 400px;
+    }
+
+    .part2 .items .card {
+        margin-bottom: 2rem;
+        width: 14rem;
+    }
+    .talk h1 {
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .talk p {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .navbar .btns2{
+        display: none;
+    }
+    .part4 {
+        justify-content: center;
+        padding: 5em;
+        flex-direction: column;
+    }
+    
+    .part4 h2 {
+        font-size: 50px;
+    }
+    
+    .part4 p {
+        font-size: 20px;
+        padding-bottom: 1rem;
+    }
+    .part2 .items {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5rem;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .part5 h2 {
+        font-size: 27px;
+        color: white;
+    }
+}
+
+@media screen and (max-width:470px) {
+
+    .part9 input{
+        width: 260px;
+    }
+    .part9 textarea{
+        width: 260px;
+    }
+    .part3 h2 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .part6 h2 {
+        font-size: 26px;
+    }
+    .part6 .item3 p{
+        font-size: 12px;
+    }
+    .part7 .talk3 h2{
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .part8 h4 {
+        font-size: 12px;
+    }
+    
+    .part8 p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    
+    .part8 h2 {
+        font-size: 25px;
+        line-height: 31px;
+    }
+    .part8 img{
+        margin-bottom: 1rem;
+    }
+    .btns2{
+        display: none;
+    }
+    .part8 span{
+        margin-left: 0rem;
+    }
+}
